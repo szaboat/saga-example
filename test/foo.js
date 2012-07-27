@@ -6,5 +6,5 @@ function hello(name){
     } else {
         message = hello + ' world';
     }
-    return s;
+    return message;
 }
