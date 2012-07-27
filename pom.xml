@@ -22,6 +22,7 @@
                     </includes>
                     <noInstrumentPatterns>
                         <pattern>.+/qunit\.js</pattern>
+                        <pattern>.+/*test*\.js</pattern>
                     </noInstrumentPatterns>
                     <outputStrategy>BOTH</outputStrategy>
                 </configuration>
