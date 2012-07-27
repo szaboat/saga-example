@@ -1,4 +1,4 @@
 test('assertions', function() {
-    equal(true, true);
-    equal(hello(), 'hello world');
+    equal(hello(), 'hello world', 'test return value');
+    equal(hello('saga'), 'hello saga', 'test argument');
 });
