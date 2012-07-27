@@ -20,6 +20,9 @@
                     <includes>
                         *index*.html
                     </includes>
+                    <noInstrumentPatterns>
+                        <pattern>.+/qunit\.js</pattern>
+                    </noInstrumentPatterns>
                     <outputStrategy>BOTH</outputStrategy>
                 </configuration>
                 <executions>
